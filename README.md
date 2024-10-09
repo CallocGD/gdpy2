@@ -1,5 +1,5 @@
 # GDPY2
-Will be Fixing Everything Wrong with GDPY and improve upon it. This will be the ultimate module to replace gdpy and eventually provide gd programmers of all backgrounds something to use. 
+Will be Fixing Everything Wrong with [GDPY](https://github.com/nekitdev/gd.py) and improve upon it. This will be the ultimate module to replace gdpy and eventually provide gd programmers of all backgrounds something to use. 
 
 ## ALL Planned Features
 - GD Client that can be easy configured around with the Boomlings server or to be pointed at Other GDPS Servers 
