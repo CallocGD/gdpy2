@@ -41,10 +41,11 @@ class url_property:
 @define 
 class HTTPConfig:
     """Used to help configure ongoing requests back and forth with different servers..."""
-    server:str = "https://www.boomlings.com/database"
 
+    server:str = "https://www.boomlings.com/database"
     url:URL = field(init=False)
     cache:dict[str, URL] = field(init=False, factory=dict)
+
     def __attrs_post_init__(self):
         self.url = URL(self.server)
 
